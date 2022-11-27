@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="src/styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>
+        <span id="city">New York</span>
+      </h1>
+
+      <form id="search-city">
+        <input
+          id="searchCity"
+          type="search"
+          placeholder="country,state,city..."
+        />
+        <input id="submit-button" type="submit" value="🔎" />
+      </form>
+
+      <p class="current">Saturday 7 pm</p>
+
+      <div class="row details">
+        <div class="col-3 temperature" id="temp-value">59 °F</div>
+        <span class="units">
+          <a href="#" id="celsius"> °C </a> |
+          <a href="#" id="fahrenheit"> °F </a>
+        </span>
+
+        <div class="col-3 cloud">☁️</div>
+
+        <div class="col-3">
+          <ul>
+            <li>Precipitation:15%</li>
+            <li>Humidity:83%</li>
+            <li>Wind:13mph</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row week">
+          <div class="col-2">Sunday</div>
+          <div class="col-2">Monday</div>
+          <div class="col-2">Tuesday</div>
+          <div class="col-2">Wednesday</div>
+          <div class="col-2">Thursday</div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row cards">
+          <div class="col-2">
+            <div class="card">
+              <div class="card-body">
+                <div class="card-title emojis">🌧️</div>
+                <p class="card-text">
+                  <strong>59°</strong>
+                  |
+                  <em>48°</em>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-2">
+            <div class="card">
+              <div class="card-body">
+                <div class="card-title emojis">☁️</div>
+                <p class="card-text">
+                  <strong>60°</strong>
+                  |
+                  <em>48°</em>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-2">
+            <div class="card">
+              <div class="card-body">
+                <div class="card-title emojis">🌦️</div>
+                <p class="card-text">
+                  <strong>61°</strong>
+                  |
+                  <em>51°</em>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-2">
+            <div class="card">
+              <div class="card-body">
+                <div class="card-title emojis">🌤️</div>
+                <p class="card-text">
+                  <strong>68°</strong>
+                  |
+                  <em>53°</em>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-2">
+            <div class="card">
+              <div class="card-body">
+                <div class="card-title emojis">🌤️</div>
+                <p class="card-text">
+                  <strong>74°</strong>
+                  |
+                  <em>57°</em>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>
