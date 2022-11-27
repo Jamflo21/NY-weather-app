@@ -1,0 +1,91 @@
+body {
+  padding-top: 50px;
+  margin: 0px 10px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: #5a6275;
+  height: 100vh;
+  background-image: url("../media/sky.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+h1 {
+  position: relative;
+  left: 150px;
+  font-size: 50px;
+  font-weight: bolder;
+}
+h1 p {
+  font-size: 25px;
+  font-weight: bold;
+  position: relative;
+  left: 17px;
+}
+
+form {
+  font-size: 25px;
+  position: relative;
+  bottom: 80px;
+  left: 850px;
+}
+
+.details {
+  border: 5px solid #5a6275;
+  padding: 50px 40px;
+  margin: 5px 90px;
+}
+.current {
+  font-size: 30px;
+  font-weight: bold;
+  position: relative;
+  top: 7px;
+  left: 90px;
+}
+
+.temperature {
+  font-size: 60px;
+  font-weight: bolder;
+  position: relative;
+  top: 0px;
+  left: 50px;
+}
+.cloud {
+  font-size: 100px;
+  text-align: center;
+  position: relative;
+  top: 0px;
+  left: 100px;
+}
+ul {
+  list-style-type: none;
+  font-weight: lighter;
+  font-size: 30px;
+  position: relative;
+  left: 150px;
+}
+
+.week {
+  font-size: 30px;
+  position: relative;
+  top: 30px;
+  left: 150px;
+  color: #0f0f10;
+  font-weight: bold;
+}
+
+.cards {
+  position: relative;
+  top: 30px;
+  left: 120px;
+}
+
+.emojis {
+  font-size: 70px;
+  position: relative;
+  left: 30px;
+}
+.card-text {
+  font-size: 40px;
+  position: relative;
+  left: 10px;
+}
