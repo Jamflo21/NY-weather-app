@@ -4,7 +4,7 @@ body {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   color: #5a6275;
   height: 100vh;
-  background-image: url("../media/sky.png");
+  background-image: url("./sky.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
